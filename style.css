@@ -1,5 +1,3 @@
-/*things within * are more imp than rest*/
-/*here within star margin, padding and border-sizing: border-box;given. This is to remove the border that the browser automatically adds*/
 *{
     margin: 0;
     padding: 0;
@@ -10,8 +8,9 @@ body{
     background-color: rgb(2, 2, 2);
     color: whitesmoke;
     font-family:Arial, Helvetica, sans-serif ;
-    
-   header {
+}
+
+header {
     position: fixed;
     top: 0;
     width: 100%;
@@ -21,26 +20,26 @@ body{
     
 }
 
+
 .avatar{
     width: 50px;
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 15px;
     padding-top: 0px;
     position: fixed;
 }
 
 .logo{
-    width: 200px;
+    width: 170px;
     padding-top: 0px;
-    left: 20px;
-    top: 20px;
+    left: 15px;
+    top: 15px;
     position: fixed;
 }
-}
-
 .originals{
     margin-top: 40px;
 }
+
 .row__posterLarge,.row__poster{
     margin-right: 20px;
 
@@ -131,20 +130,21 @@ body{
     background-image:linear-gradient(180deg,transparent,rgba(51,51,51,.5),#111) ;
 }
 
-.avatar{
-  position: absolute;
-  width: 50px;
-  top: 1em;
-  right: 2ex;
-  padding-top: 0px;
+ 
 
-}
- .logo{
+#avatar{
     position: absolute;
-    width: 200px;
+    width: 50px;
     top: 1em;
-    left: 2ex;
-    padding-top: 0px;   
- }
-
+    right: 2ex;
+    padding-top: 0px;
+  
+  }
+#logo{
+      position: absolute;
+      width: 200px;
+      top: 1em;
+      left: 2ex;
+      padding-top: 0px;   
+   }
 }
